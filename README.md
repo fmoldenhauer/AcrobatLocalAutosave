@@ -1,0 +1,3 @@
+**Acrobat Local Autosave**
+
+Acrobat's native autosave function can fail in situations where pdf files are downloaded from the internet, opened from a temporary file, and deleted after the acrobat program stops running (a safe exit or a crash). This program uses Acrobat's interapplication communications API to query currently open pdf files and save a copy of each to a new 'Autosave' directory within the current user's 'Document' directory. This process is repeated continuously over a user-definable (default= 600 seconds) interval.   
